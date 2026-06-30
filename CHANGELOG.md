@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.1.2
+
+- 发布 `Mineradio 修改完善版本`，仓库与更新源指向 `cxx2580/Mineradio-Modified`。
+- 新增自定义专辑封面入口，支持当前歌曲选择图片、裁剪并保存封面。
+- Home 首页改为随机热评、来源、日期和时间展示，修复热评点击后误进入空白区域的问题，并降低热评默认字号。
+- 歌单曲目加载取消 500 首限制，支持继续加载完整歌单。
+- 视觉控制台新增歌单架滚轮速度调节和歌词显示行数调节。
+- 修复多行歌词上下间距不足、行数调整后舞台显示不明显的问题。
+- 优化搜索结果排序，优先原唱和高热度版本。
+- 移除未完成且效果不稳定的壁纸模式入口。
+- 保留 GPL-3.0 协议和原作者署名，新增 `NOTICE.md` 修改版声明。
+
 ## v1.1.1
 
 - P0 installer safety fix: installation now defaults to the first available non-C drive from `D:\Mineradio` through `Z:\Mineradio`; it falls back to `C:\Mineradio` only when no D-Z drive exists.

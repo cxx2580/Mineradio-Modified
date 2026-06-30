@@ -68,16 +68,16 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "XxHuberrr",
-        "repo": "Mineradio"
+        "owner": "cxx2580",
+        "repo": "Mineradio-Modified"
       }
     ]
   },
   "mineradio": {
     "update": {
       "provider": "github",
-      "owner": "XxHuberrr",
-      "repo": "Mineradio",
+      "owner": "cxx2580",
+      "repo": "Mineradio-Modified",
       "preview": true,
       "preferMirrors": true,
       "mirrors": [
